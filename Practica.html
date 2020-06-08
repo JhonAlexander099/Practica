@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor numero</title>
+</head>
+<body>
+    <input type="text" name="Numero1" id="Numero1">
+    <input type="text" name="Numero2" id="Numero2">
+    <input type="text" name="Numero3" id="Numero3">
+</body>
+    <script>
+function mayor (num1,num2,mun3){
+
+        var n1=prompt("Ingrese primer numero")
+        var n2=prompt("Ingrese segundo numero")
+        var n3=prompt("Ingrese tercer numero")
+
+        if(num1>=num2 && num1>=num3){
+      return num1
+  }else if (num2>num1 && num2>num3){
+      return num2 
+  } else{
+      return num3
+  }
+  }
+  alert("el numero mayor es " + mayor (n1,n2,n3))
+    </script>
+
+</html>
